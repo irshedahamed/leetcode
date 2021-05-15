@@ -14,10 +14,7 @@ class Solution {
                 map.put(sorted, list);
             }
         }
-        for (Map.Entry<String, List<String>> entry : map.entrySet()) {
-            List<String> list = (List<String>) entry.getValue();
-            result.add(list);
-        }
+        result.addAll(map.values());
         return result;
     }
     public String sortString(String s) {
