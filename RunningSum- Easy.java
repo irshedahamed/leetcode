@@ -1,42 +1,25 @@
-/**
- * Inorder Successor
-Question 482 of 999
+/*
+https://leetcode.com/problems/running-sum-of-1d-array/
 
-Given a binary search tree root containing unique values, and an integer t, return the value of the inorder successor of t. That is, return the smallest value greater than t in the tree.
+Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 
-Note: you can assume that the inorder successor exists.
+Return the running sum of nums.
 
-Bonus: solve it in O(h)\mathcal{O}(h)O(h) space where h is the height of the tree.
+ 
 
-Constraints
+Example 1:
 
-    n ≤ 100,000 where n is the number of nodes in root
+Input: nums = [1,2,3,4]
+Output: [1,3,6,10]
+Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
+*/
 
 
- */
-import java.util.*;
-
-/**
- * public class Tree {
- *   int val;
- *   Tree left;
- *   Tree right;
- * }
- */
 class Solution {
-    int ans = 0;
-    public int solve(Tree root, int t) {
-        inOrder(root,t);
-        return ans;
-    }
-    
-    public void inOrder(Tree root,int t){
-        if(root==null)
-            return;
-       
-        inOrder(root.left,t);
-            if(ans==0 && root.val>t)
-                ans = root.val;
-        inOrder(root.right,t);
+    public int[] runningSum(int[] nums) {
+        for(int i = 1;i<nums.length;i++){
+            nums[i]+=nums[i-1];
+        }
+        return nums;
     }
 }
