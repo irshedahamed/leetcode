@@ -6,3 +6,4 @@
     1. [Merge Sorted List](https://github.com/irshedahamed/leetcode/blob/main/MergeSortedList.java)
 	1. [Sort Linked List - Merge Sort](https://github.com/irshedahamed/leetcode/blob/main/SortLinkedList.java)
     1. [Reverse Linked List](https://github.com/irshedahamed/leetcode/blob/main/ReverseLinkedList.java)
+	1. [Reverse Linked List II - Reverse in a Subset](https://github.com/irshedahamed/leetcode/blob/main/ReverseLinkedListII.java)
