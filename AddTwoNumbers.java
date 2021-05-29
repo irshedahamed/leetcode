@@ -1,12 +1,7 @@
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
+ 
+ Url : https://leetcode.com/problems/add-two-numbers/submissions/
+
  */
 class Solution {
     ListNode head = null;
@@ -62,3 +57,54 @@ class Solution {
         return new int[] {n1,n2};
     }
 }
+
+
+
+/*
+---------------------------------------------------------------- 
+ 1ms Soln :
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        int flag = 0;
+        int carry = 0;
+        ListNode head = l1;
+        ListNode prev= l1;
+       
+        while(l1 != null && l2!=null){
+             int sum = l1.val + l2.val + carry;
+            l1.val = sum % 10;
+            carry = sum / 10;
+            prev = l1;
+            l1 = l1.next;
+            l2 = l2.next;
+        }
+        
+        while(l1 != null){
+            int sum = l1.val + carry;
+            l1.val = sum % 10;
+            carry = sum / 10;
+            prev = l1;
+            l1 = l1.next;
+        }
+        
+        while(l2!=null){
+            if(flag == 0){
+                flag = 1;
+                prev.next = l2;
+            }
+            int sum = l2.val + carry;
+            l2.val = sum % 10;
+            carry = sum / 10;
+            prev = l2;
+            l2 = l2.next;
+        }
+        
+        if(carry!=0){
+            ListNode newNode = new ListNode(carry);
+            prev.next = newNode;
+        }
+        
+        return head;
+    }
+}
+*/
