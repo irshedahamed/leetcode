@@ -16,6 +16,8 @@
 	5. [InOrder Successor](https://github.com/irshedahamed/leetcode/blob/main/Trees/InOrderSuccessor.java)
 	6. [Level Order Traversal](https://github.com/irshedahamed/leetcode/blob/main/Trees/LevelOrderTraversal.java)
 	7. [Merging Binary Tree](https://github.com/irshedahamed/leetcode/blob/main/Trees/MergingBinaryTree.java)
+	8. [Count BST Nodes in Range](https://github.com/irshedahamed/leetcode/blob/main/Trees/CountBSTNodesInRange.java)
+	9. [Leaves in Same Level](https://github.com/irshedahamed/leetcode/blob/main/Trees/LeavesInSameLevel.java)
 
 
 ## Important Problem Categories
