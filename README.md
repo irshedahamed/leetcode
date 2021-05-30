@@ -18,5 +18,6 @@
 	7. [Merging Binary Tree](https://github.com/irshedahamed/leetcode/blob/main/Trees/MergingBinaryTree.java)
 
 
-## Imporatant Problem Categories
-	1. [Category 1](https://github.com/irshedahamed/leetcode/blob/main/ImportantProb/Catergory_G.md) 
+## Important Problem Categories
+  1. [Category 1](https://github.com/irshedahamed/leetcode/blob/main/ImportantProb/Catergory_G.md)
+ 
