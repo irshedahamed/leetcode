@@ -20,6 +20,7 @@
 	9. [Leaves in Same Level](https://github.com/irshedahamed/leetcode/blob/main/Trees/LeavesInSameLevel.java)
 1. Arrays
  	1. [Subarray with Maximum Sum - Kadane's Algorithm](https://github.com/irshedahamed/leetcode/blob/main/Arrays%26String/MaxSubArray.java)
+ 	2. [Two Sum](https://github.com/irshedahamed/leetcode/blob/main/Arrays%26String/TwoSum.java)
 
 ## Important Problem Categories
   1. [Category 1](https://github.com/irshedahamed/leetcode/blob/main/ImportantProb/Catergory_G.md)
