@@ -26,7 +26,7 @@ class Solution {
        int right = dfs(root.right,p,q);
         
         
-        if(left+right+count  = 2 && flag == 0){
+        if(left+right+count  == 2 && flag == 0){
             flag = 1;
             result = root;
         }
