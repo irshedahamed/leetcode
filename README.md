@@ -18,6 +18,8 @@
 	7. [Merging Binary Tree](https://github.com/irshedahamed/leetcode/blob/main/Trees/MergingBinaryTree.java)
 	8. [Count BST Nodes in Range](https://github.com/irshedahamed/leetcode/blob/main/Trees/CountBSTNodesInRange.java)
 	9. [Leaves in Same Level](https://github.com/irshedahamed/leetcode/blob/main/Trees/LeavesInSameLevel.java)
+	10. [Path Sum](https://github.com/irshedahamed/leetcode/blob/main/Trees/DFS/PathSum.java)
+	11. [Path Sum 2](https://github.com/irshedahamed/leetcode/blob/main/Trees/DFS/PathSum2.java)
 1. Arrays
  	1. [Subarray with Maximum Sum - Kadane's Algorithm](https://github.com/irshedahamed/leetcode/blob/main/Arrays%26String/MaxSubArray.java)
  	2. [Two Sum](https://github.com/irshedahamed/leetcode/blob/main/Arrays%26String/TwoSum.java)
